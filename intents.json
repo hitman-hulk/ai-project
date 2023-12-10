@@ -1,0 +1,52 @@
+{"intents":[
+    {"tag":"welcome",
+     "patterns":["hi","how are you","Is anyone there","hello","good day","whats up","how are you boss",
+                 "long time no see"],
+     "responses":["hello!","good to see you again!@##","hi there how can i help you?"],
+     "context_set":""
+    },
+    {"tag":"goodbye",
+     "patterns":["cya","see you later","goodbye","i am leaving","have a good day","bye",
+                 "Try not to die"],
+     "responses":["SAD to see you go;(","talk to you later","goodbye!"],
+     "context_set":""
+    },
+    {"tag":"name",
+     "patterns":["what is your name","what should i call you","whats your name?","name"],
+     "responses":["you can call me vegeta","i'm vegeta","i'm vegeta aka the prince of all saiyans"],
+     "context_set":""
+    },
+    {"tag":"calculator",
+     "patterns":["what will be the sum of","what will be the difference of",
+                 "what will be the product of","what will you get if you divide",
+                 "ratio of","sum of","product of","difference of","can you calculate","calculator"],
+     "responses":["sure done"],
+     "context_set":""
+    },
+    {"tag":"web",
+     "patterns":["i want to browse the web","surf web","w-","web"],
+     "responses":["please go ahead"],
+     "context_set":""  
+    },
+    {"tag":"todo",
+     "patterns":["add to todo list","display todo list","show my pending works","is there any of my task left",
+                 "workload"],
+     "responses":["am working on that"],
+     "context_set":""   
+    },
+    {"tag":"alarm",
+     "patterns":["set an alarm","wake me up","alarm"],
+     "responses":["what time do you want me to wake you up","what time do you want to set the alarm"],   
+     "context_set":""
+    },
+    {"tag":"users",
+     "patterns":["show user history","who all used my program","admin","user history"],
+     "responses":["they are"],
+     "context_set":""
+    },
+    {"tag":"remainder",
+     "patterns":["remind me to","remind me","set a remainder","remainder","dont sleep off"],
+     "responses":["done pops"],
+     "context_set":""
+    }]
+}

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/akugyo/Documents/GitHub/ai-project/model.tflearn"
+all_model_checkpoint_paths: "/home/akugyo/Documents/GitHub/ai-project/model.tflearn"
